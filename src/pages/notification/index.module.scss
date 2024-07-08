@@ -1,0 +1,50 @@
+.zapItem {
+  padding-left: var(--basePadding5);
+}
+
+.sats {
+  color: var(--primary-06);
+}
+
+.approvalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--basePadding3);
+  margin: var(--basePadding5) 0;
+  font-size: 16px;
+  font-weight: 600;
+
+  .description{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    gap: var(--basePadding3);
+
+    .communityHeader {
+      cursor: pointer;
+      color: var(--primary-06);
+  
+      svg {
+        width: 18px;
+        height: 18px;
+      }
+    }
+  }
+
+  .time {
+    color: var(--neutral-05);
+  }
+}
+
+.notification{
+  :global{
+    .ant-tabs-nav{
+      margin: 0 var(--basePadding5);
+    }
+
+    .ant-tabs-nav-list {
+      width: auto;
+    }
+  }
+}

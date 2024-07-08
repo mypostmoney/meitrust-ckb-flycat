@@ -1,0 +1,22 @@
+.root {
+  display: flex;
+  width: auto;
+  padding: 16px 20px;
+  justify-content: space-between;
+  align-items: center;
+
+  .title {
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    color: var(--neutral-09);
+
+    /* Subheader1-bold */
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    line-height: 24px;
+  }
+}

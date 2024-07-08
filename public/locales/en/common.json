@@ -1,0 +1,326 @@
+{
+  "util": {
+    "unknown": "unknown",
+    "noNumberData": "?"
+  },
+  "timeSince": {
+    "now": "just now",
+    "seconds": "seconds ago",
+    "minutes": "minutes ago",
+    "hours": "hours ago",
+    "days": "days ago",
+    "month": "month ago"
+  },
+  "nav": {
+    "menu": {
+      "blog": "Blog",
+      "blogDashboard": "Write",
+      "github": "Github",
+      "globalFeed": "Global",
+      "contact": "Contact",
+
+      "profile": "Profile",
+      "setting": "Settings",
+      "preference": "Preference",
+      "signOut": "Sign out",
+      "signIn": "Sign in",
+      "backup": "Backup",
+      "drafts": "Drafts",
+      "home": "Home",
+      "communities": "Communities",
+      "relays": "Relays",
+      "bookmarks": "Bookmarks",
+      "notifications": "Notifications",
+      "search": "Search",
+      "about": "About"
+    }
+  },
+  "home": {
+    "loadMoreBtn": "Load More",
+    "refreshBtn": "Refresh Notes"
+  },
+  "noticeBox": {
+    "blog": "blog message",
+    "mention": "@mentioned By",
+    "msg": "interactive Message"
+  },
+  "pubNoteBox": {
+    "hintText": "what's up",
+    "submit": "send"
+  },
+  "share": {
+    "rePostShare": "rePost To Home Page",
+    "cancel": "cancel"
+  },
+  "showThread": {
+    "open": "view thread"
+  },
+  "textMsg": {
+    "replyTo": "replying to",
+    "highlight": "highlight the post from",
+    "quote": "quote the note",
+    "mention": "mention",
+    "postArticle": "post article"
+  },
+  "seen": {
+    "title": "Seen On:",
+    "broadcast": "broadcast to all"
+  },
+  "userBox": {
+    "pubKey": "publicKey",
+    "follow": "following",
+    "followed": "follower",
+    "noteMsg": "notes"
+  },
+  "UserRequiredLoginBox": {
+    "loginFirst": "please sign in first",
+    "noAbout": "sign in to see user's about",
+    "noPubKey": "sign in to view publicKey"
+  },
+  "UserProfileBox": {
+    "hisAbout": "their about",
+    "hisPubKey": "their PublicKey",
+    "hisFollow": "their Follow",
+    "hisFollower": "they Are Followed By",
+    "hisNoteMsg": "their Messages"
+  },
+  "UserHeader": {
+    "hisBlog": "view blog"
+  },
+  "UserBlogHeader": {
+    "toFollow": "+follow",
+    "toUnFollow": "unfollow",
+    "noUserName": "user",
+    "hisBlog": "'s blog",
+    "noBlog": " has not create a blog yet"
+  },
+  "relayManager": {
+    "title": "Relays"
+  },
+  "relayAdder": {
+    "add": "add"
+  },
+  "replyBtn": {
+    "reply": "reply",
+    "submit": "submit"
+  },
+  "loginForm": {
+    "welcome": "Welcome to Flycat 👏",
+    "signOut": "Sign Out",
+    "pubKey": "PublicKey",
+    "privKey": "PrivateKey",
+    "signWithNip07": "Alby/Nos2x",
+    "signWithMetamask": "Metamask",
+    "signWithWalletConnect": "WalletConnect",
+    "signWithNexus": "Nexus",
+    "signIn": "Submit",
+    "cancel": "Cancel",
+    "signedInFrom": "signed from ",
+    "copyPubKey": "copy public key",
+    "copyPrivKey": "copy private key",
+    "pkHint": ": required",
+    "privHint": ": optional for read-only",
+    "genNewKey": "Generate New Key",
+    "readonlyMode": "Just Look Around? Use Readonly Mode",
+    "backUpPrivKeyHint": "Remember to back up this private key!",
+    "title": "Sign In",
+    "signInWithPrivKeyTitle": "Sign In With Private Key",
+    "recommend": "Recommend"
+  },
+  "evmSignIn": {
+    "title": "Sign-In with EVM blockchain (experimental)",
+    "introduce": "the nostr account is a sub account generated from deterministic eth account's signature and is also entirely segregated from the eth account. Since it is a highly experimental feature and the specs might be changed again please read the following post about how it works and use it at your own risk.",
+    "chainName": "chain name",
+    "chainId": "chain id",
+    "address": "ETH address",
+    "tip": "make sure you have the same username&password, and choose the same eth address on the same evm blockchain, this way your nostr sub account will be the same one. you can also backup the nostr sub account key after you signed-in if you want.",
+    "usernameAndPw": "set username and password for nostr sub account (if you forget it, flycat can't find it for you!)",
+    "username": "Username（required）",
+    "password": "password(optional)",
+    "submit": "submit"
+  },
+  "thread": {
+    "title": "Thread",
+    "noArticleShareTitle": "unknown article title",
+    "noBlogShareName": "unknown blog name"
+  },
+  "blog": {
+    "edit": "Edit",
+    "postOn": "submit",
+    "lastUpdatedAt": "last updated at",
+    "rePostShare": "share to feed",
+    "submit": "submit",
+    "articles": "Articles",
+    "collection": "Collection",
+    "draft": "Draft"
+  },
+  "postArticle": {
+    "newArticle": "New Blog Post",
+    "titlePlaceHolder": "title",
+    "contentPlaceHolder": "content..",
+    "submit": "submit"
+  },
+  "postUpdate": {
+    "submit": "submit",
+    "cancel": "cancel"
+  },
+  "siteMeta": {
+    "noBlog": "the user has no blog",
+    "createNewBlog": "create a new blog",
+    "namePlaceHolder": "blog name",
+    "aboutPlaceHolder": "blog description",
+    "submit": "submit"
+  },
+  "articleRead": {
+    "article": "'s article",
+    "post": "posted",
+    "rePostShare": "share to feed",
+    "lastUpdatedAt": "last updated at",
+    "submit": "submit"
+  },
+  "contact": {
+    "noAbout": "no about",
+    "historyFollowingTitle": "My History Followings",
+    "currentFollowings": "Current Followings",
+    "recoveryBtn": "Recovery"
+  },
+  "setting": {
+    "version": "Client Version: ",
+    "exit": "ok"
+  },
+  "blogFeed": {
+    "title": "Blog Post",
+    "noPostYet": "nothing here..",
+    "followHint": "articles posted by you and your following will show up here",
+    "globalFeed": "below shows some example posts from flycat author's blog"
+  },
+  "homeFeed": {
+    "noPostYet": "nothing here..",
+    "followHint": "notes posted by you and your following will show up here",
+    "globalFeed": "below shows some notes from global feed"
+  },
+  "profile": {
+    "postArticles": "{{count}} post on {{siteName}}"
+  },
+  "topArticle": {
+    "title": "New Articles"
+  },
+  "profileEditPanel": {
+    "title": "Edit Profile",
+    "displayName": "Display Name",
+    "username": "Username",
+    "avatar": "Avatar",
+    "about": "About",
+    "banner": "Banner",
+    "website": "Website",
+    "btcLightningAddress": "Bitcoin Lightning Address lud06",
+    "lud16": "Bitcoin Lightning Address lud16",
+    "domainNameVerification": "Domain Name Verification",
+    "submit": "Submit",
+    "cancel": "Cancel"
+  },
+  "backup": {
+    "signInFirst": "please sign in first!",
+    "invalidWs": "invalid ws relay url!!!",
+    "tips": "To learn how to setup a local relay to backup your data, check out",
+    "thisPost": " this post",
+    "relayStatus": "relay status",
+    "running": "running",
+    "connecting": "connecting",
+    "totalCount": "total data count",
+    "items": " items",
+    "filter": "Filter Event Kind",
+    "itemsOnOtherRelay": " items On Other Relays",
+    "fetch": "fetch data",
+    "syncToBackUp": "sync to backup"
+  },
+  "friendDiscover": {
+    "title": "Friend Of Friend",
+    "noFriend": "no friend yet"
+  },
+  "lighting": {
+    "pay": "Pay",
+    "atLeast": "at least"
+  },
+  "notification": {
+    "replyToYour": "replying to your ",
+    "note": "note",
+    "mentionYou": "mentioned you",
+    "likedYour": "liked your "
+  },
+  "relayUniverse": {
+    "title": "relay universe",
+    "selectLabel": "filter relay"
+  },
+  "fof": {
+    "title": "Friends of friends"
+  },
+  "blogWrite": {
+    "btn": {
+      "recovery": "Recovery draft",
+      "save": "Save draft",
+      "publish": "Publish",
+      "cancel": "Cancel"
+    },
+    "form": {
+      "coverImage": "Cover Image",
+      "summary": "Summary",
+      "slug": "Slug",
+      "slugPlaceholder": "(optionally) slug, aka article_id, can not be changed after. just leave it blank if you don't understand it.",
+      "dir": "Dir",
+      "dirPlaceholder": "(optionally) virtual path of the article, split with '/', eg: dir1/dir2/dir3",
+      "tag": "Tag"
+    },
+    "main": {
+      "titlePlaceholder": "Please enter the title of your article"
+    },
+    "tipsy": {
+      "restore": "Local article draft found, automatic recovery of record",
+      "success": {
+        "save": "Save successfully",
+        "publish": "Published successfully"
+      }
+    }
+  },
+  "subscribeFeed": {
+    "rssTitle": "Select an RSS Provider",
+    "jsonTitle": "Select an JSON Feed Provider",
+    "atomTitle": "Select an Atom Feed Provider"
+  },
+  "comment": {
+    "login": "Please log in",
+    "me": "Me",
+    "success": "published! please refresh the page, sorry will fix this soon!",
+    "placeholder": "Please fill out your comment."
+  },
+  "relaySelector": {
+    "modal": {
+      "title": "What is Relay mode?",
+      "global": "Global",
+      "globalDesc": "You can select a relay group/single relay from the list",
+      "auto": "Auto",
+      "autoDesc": "We will automatically select a relay based on our algorithm",
+      "fastest": "Fastest",
+      "fastestDesc": "We will select the relay with fastest connection",
+      "rule": "Rule",
+      "ruleDesc": "You can customize your entire experience on Flycat by uploading your own scripts",
+      "buttonText": "Got it"
+    }
+  },
+  "pubNoteTextarea": {
+    "icons": {
+      "image": "Insert image",
+      "emoji": "Insert emoji",
+      "longForm": "Write long-form"
+    },
+    "btn": {
+      "post": "Post"
+    }
+  },
+  "baseLayout": {
+    "modal": {
+      "title": "Write notes",
+      "desc": "Share your thoughts with the community"
+    }
+  }
+}

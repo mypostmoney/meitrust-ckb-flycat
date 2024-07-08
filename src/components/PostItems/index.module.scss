@@ -1,0 +1,59 @@
+.post {
+  padding: var(--basePadding3) var(--basePadding5);
+  border-bottom: 1px solid var(--neutral-02);
+
+  .more {
+    width: 18px;
+    height: 18px;
+    color: var(--neutral-06);
+    cursor: pointer;
+  }
+
+  .content {
+    padding-left: calc(var(--padding) * 1);
+    margin-top: var(--basePadding3);
+    overflow-wrap: anywhere;
+    white-space: pre-line;
+
+    @media (width >= 767px) {
+      padding-left: calc(var(--padding) * 14);
+    }
+  }
+}
+
+.post .embed {
+  padding: 0;
+  border-bottom: none;
+}
+
+.repost {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  color: var(--neutral-06);
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: var(--basePadding3);
+
+  svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.communityPostTitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  color: var(--neutral-06);
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: var(--basePadding3);
+
+  svg {
+    width: 18px;
+    height: 18px;
+  }
+}

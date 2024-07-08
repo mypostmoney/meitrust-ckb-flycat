@@ -1,0 +1,49 @@
+html,
+body {
+  min-width: 320px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-color: var(--neutral-01);
+  touch-action: pan-y;
+  scroll-behavior: smooth;
+}
+
+// Fix antd-mobile body style without impacting all pages
+body {
+  --adm-color-background: var(--neutral-01);
+}
+
+.swal2-container {
+  z-index: 10000 !important;
+}
+
+// antd
+.ant-btn-primary:disabled {
+  border: none;
+}
+
+.ant-menu .ant-menu-item {
+  border-radius: 0;
+}
+
+.ant-tabs {
+  width: 100%;
+}
+
+.ant-tabs-nav-list {
+  width: 100%;
+
+  .ant-tabs-tab {
+    flex: 1;
+
+    .ant-tabs-tab-btn {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+
+.ant-modal-confirm-content{
+  max-width: 100% !important;
+}

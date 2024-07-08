@@ -1,0 +1,72 @@
+.signPanel {
+  margin: var(--basePadding5) var(--basePadding4);
+}
+
+.button {
+  text-transform: capitalize;
+  width: 100%;
+  padding: 20px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: var(--basePadding2) 0;
+}
+
+.icon {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.inputWithSubmitButton {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(218 215 215);
+  padding: 5px;
+  border-radius: var(--basePadding4);
+}
+
+.discourageLinkBtn {
+  color: var(--neutral-06);
+}
+
+.popupDialog {
+  width: 500px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.popupIntroduce {
+  font-size: 14px;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.popupTip {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.chainInfo {
+  text-transform: capitalize;
+}
+
+.chainInfoLabel {
+  font-weight: bold;
+}
+
+.chainInfoValue {
+  text-transform: capitalize;
+}
+
+.popupInput {
+  margin: var(--basePadding2) 0;
+}
+
+.popupLabel {
+  margin-top: 10px;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: gray;
+}

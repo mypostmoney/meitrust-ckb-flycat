@@ -1,0 +1,80 @@
+.refNote {
+  border: 1px solid var(--neutral-04);
+  left: 56px;
+  top: 0;
+  border-radius: 12px;
+  padding: 12px;
+  margin: var(--basePadding3) 0;
+  overflow-wrap: anywhere;
+
+  .user {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--neutral-02);
+  }
+}
+
+.refProfile {
+  max-width: 300px;
+  word-wrap: break-word;
+  background: var(--neutral-03);
+  border-radius: 12px;
+  padding: 12px;
+  position: absolute;
+  display: none;
+  z-index: 1;
+
+  .user {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.hoverLink:hover + .refProfile {
+  display: block;
+}
+
+.refLink {
+  background: #f2f2f2;
+  width: 100%;
+  left: 56px;
+  top: 0;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+.refLongForm {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: var(--basePadding2);
+  margin: var(--basePadding3) 0;
+  padding: var(--basePadding3);
+
+  @include font-header3;
+
+  color: var(--primary-06);
+  border-radius: var(--basePadding2);
+  background-color: var(--neutral-02);
+
+  a {
+    color: var(--primary-06);
+  }
+
+  .summary{
+    @include font-body;
+  }
+
+  svg {
+    width: 24px;
+    height: 24px;
+    fill: var(--primary-06);
+  }
+}

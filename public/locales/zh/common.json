@@ -1,0 +1,326 @@
+{
+  "util": {
+    "unknown": "未知",
+    "noNumberData": "?"
+  },
+  "timeSince": {
+    "now": "刚刚",
+    "seconds": "秒钟前",
+    "minutes": "分钟前",
+    "hours": "小时前",
+    "days": "天前",
+    "month": "月前"
+  },
+  "nav": {
+    "menu": {
+      "blog": "博客",
+      "blogDashboard": "写作",
+      "github": "开源",
+      "globalFeed": "随便看看",
+      "contact": "关注的人",
+
+      "profile": "我的空间",
+      "setting": "设置",
+      "preference": "偏好",
+      "signOut": "退出",
+      "signIn": "登录",
+      "backup": "私人备份",
+      "drafts": "草稿箱",
+      "home": "首页",
+      "communities": "社区",
+      "relays": "中继",
+      "bookmarks": "收藏",
+      "notifications": "通知",
+      "search": "搜索",
+      "about": "关于"
+    }
+  },
+  "home": {
+    "loadMoreBtn": "加载更多",
+    "refreshBtn": "刷新"
+  },
+  "noticeBox": {
+    "blog": "订阅号消息",
+    "mention": "@提到我的",
+    "msg": "互动消息"
+  },
+  "pubNoteBox": {
+    "hintText": "你在想什么？",
+    "submit": "发送"
+  },
+  "share": {
+    "rePostShare": "转发到主页",
+    "cancel": "取消"
+  },
+  "showThread": {
+    "open": "查看对话"
+  },
+  "textMsg": {
+    "replyTo": "回复",
+    "highlight": "分享了文章划线，作者",
+    "quote": "转发",
+    "mention": "提到了",
+    "postArticle": "发表了文章"
+  },
+  "seen": {
+    "title": "已发布：",
+    "broadcast": "广播到其余连接器"
+  },
+  "userBox": {
+    "pubKey": "公钥",
+    "follow": "关注",
+    "followed": "被关注",
+    "noteMsg": "消息"
+  },
+  "UserRequiredLoginBox": {
+    "loginFirst": "请先登录",
+    "noAbout": "这个用户还没有写任何的自述",
+    "noPubKey": "公钥：{'登录后显示公钥'}"
+  },
+  "UserProfileBox": {
+    "hisAbout": "ta的自述",
+    "hisPubKey": "ta的公钥",
+    "hisFollow": "ta的关注",
+    "hisFollower": "ta被关注",
+    "hisNoteMsg": "ta的消息"
+  },
+  "UserHeader": {
+    "hisBlog": "ta的博客"
+  },
+  "UserBlogHeader": {
+    "toFollow": "关注ta",
+    "toUnFollow": "取消关注",
+    "noUserName": "用户",
+    "hisBlog": "的博客",
+    "noBlog": "还没有博客"
+  },
+  "relayManager": {
+    "title": "连接器"
+  },
+  "relayAdder": {
+    "add": "添加"
+  },
+  "replyBtn": {
+    "reply": "回复",
+    "submit": "提交"
+  },
+  "loginForm": {
+    "welcome": "欢迎光临飞猫 👏",
+    "signOut": "退出",
+    "pubKey": "公钥",
+    "privKey": "私钥",
+    "signWithNip07": "Alby或Nos2x登录",
+    "signWithMetamask": "Metamask登录",
+    "signWithWalletConnect": "WalletConnect登录",
+    "signWithNexus": "Nexus登录",
+    "signIn": "登录",
+    "cancel": "取消",
+    "signedInFrom": "登录自 ",
+    "copyPubKey": "账户公钥",
+    "copyPrivKey": "账户私钥",
+    "pkHint": ": 必填",
+    "privHint": ": 只读模式可不填",
+    "genNewKey": "生成随机密钥",
+    "readonlyMode": "只想看看？使用只读模式登录",
+    "backUpPrivKeyHint": "记得备份这个新的私钥!",
+    "title": "登录",
+    "signInWithPrivKeyTitle": "使用私钥登录",
+    "recommend": "推荐"
+  },
+  "evmSignIn": {
+    "title": "通过 EVM 区块链账户登录 (实验功能)",
+    "introduce": "这种方式会通过区块链账号对一条固定的消息做一次签名，然后从这个确定性的签名中生成一个 nostr 子账户，这个子账户跟区块链账户是隔离的。具体原理可以阅读下面文章，鉴于这是一个高度实验性的特性，后期可能还会有所变动，请按照自己的风险来使用这个功能。",
+    "chainName": "区块链名称",
+    "chainId": "区块链 ID",
+    "address": "ETH 账户地址",
+    "tip": "请确保你使用了相同的用户名和密码、在相同的 EVM 区块链上选择了相同的以太坊地址， 这样生成的 nostr 子账号才会是同一个子账号。你也可以选择在登录之后备份一下所生成的 nostr 子账号的私钥。",
+    "usernameAndPw": "为 Nostr 账户设置用户名和密码（忘记无法找回）",
+    "username": "用户名（必填）",
+    "password": "密码（选填）",
+    "submit": "提交"
+  },
+  "thread": {
+    "title": "交谈消息",
+    "noArticleShareTitle": "未知标题",
+    "noBlogShareName": "未知博客"
+  },
+  "blog": {
+    "edit": "修改",
+    "postOn": "发表",
+    "lastUpdatedAt": "上次更新",
+    "rePostShare": "转发到主页",
+    "submit": "发布",
+    "articles": "文章",
+    "collection": "文集",
+    "draft": "草稿"
+  },
+  "postArticle": {
+    "newArticle": "写文章",
+    "titlePlaceHolder": "标题",
+    "contentPlaceHolder": "正文..",
+    "submit": "发布"
+  },
+  "postUpdate": {
+    "submit": "发布",
+    "cancel": "取消"
+  },
+  "siteMeta": {
+    "noBlog": "这个用户还没有创建博客",
+    "createNewBlog": "创建一个新博客",
+    "namePlaceHolder": "博客名称",
+    "aboutPlaceHolder": "博客介绍描述",
+    "submit": "创建"
+  },
+  "articleRead": {
+    "article": "的文章",
+    "post": "发表",
+    "rePostShare": "转发到主页",
+    "lastUpdatedAt": "上次更新",
+    "submit": "发布"
+  },
+  "contact": {
+    "noAbout": "暂无介绍",
+    "historyFollowingTitle": "我的历史关注",
+    "currentFollowings": "当前的关注列表",
+    "recoveryBtn": "恢复此版本"
+  },
+  "setting": {
+    "version": "客户端版本：",
+    "exit": "好的"
+  },
+  "blogFeed": {
+    "title": "博客文章",
+    "noPostYet": "还没有文章..",
+    "followHint": "你写的和关注的人的文章会出现在这里",
+    "globalFeed": "随便看看其他人的文章"
+  },
+  "homeFeed": {
+    "noPostYet": "还没有短消息..",
+    "followHint": "你发布的和关注的人的短消息会出现在这里",
+    "globalFeed": "随便看看其他人的消息"
+  },
+  "profile": {
+    "postArticles": "发表了 {{count}} 篇文章于{{siteName}}"
+  },
+  "topArticle": {
+    "title": "最近文章"
+  },
+  "profileEditPanel": {
+    "title": "编辑资料",
+    "displayName": "显示用户名",
+    "username": "@用户名",
+    "avatar": "头像",
+    "about": "关于",
+    "banner": "背景图",
+    "website": "网站",
+    "btcLightningAddress": "闪电网络收款地址 lud06",
+    "lud16": "闪电网络收款地址 lud16",
+    "domainNameVerification": "NIP05 域名认证",
+    "submit": "提交",
+    "cancel": "取消"
+  },
+  "backup": {
+    "signInFirst": "请先登录！",
+    "invalidWs": "无效的连接器 ws 地址！",
+    "tips": "学习如何使用本地连接器备份自己的nostr数据，请查看",
+    "thisPost": "这篇文章",
+    "relayStatus": "连接器状态",
+    "running": "已连接",
+    "connecting": "正在连接..",
+    "totalCount": "总数据条数",
+    "items": " 条",
+    "filter": "过滤 Event 类型",
+    "itemsOnOtherRelay": " 条在其他 relay 上",
+    "fetch": "请求数据",
+    "syncToBackUp": "同步到私人备份"
+  },
+  "friendDiscover": {
+    "title": "朋友的朋友",
+    "noFriend": "暂时还没有朋友"
+  },
+  "lighting": {
+    "pay": "电一下",
+    "atLeast": "最少"
+  },
+  "notification": {
+    "replyToYour": "回复了你的",
+    "note": "消息",
+    "mentionYou": "提到了你",
+    "likedYour": "喜欢了你的"
+  },
+  "relayUniverse": {
+    "title": "连接器小宇宙",
+    "selectLabel": "选择连接器"
+  },
+  "fof": {
+    "title": "朋友的朋友"
+  },
+  "blogWrite": {
+    "btn": {
+      "recovery": "恢复草稿",
+      "save": "保存草稿",
+      "publish": "发布",
+      "cancel": "取消"
+    },
+    "form": {
+      "coverImage": "封面图片",
+      "summary": "摘要",
+      "slug": "别名",
+      "slugPlaceholder": "(可选)别名，也称文章ID，保存后无法更改。如果您不理解，请留空。",
+      "dir": "目录",
+      "dirPlaceholder": "(可选)文章的虚拟路径，用'/'分割，例如：dir1/dir2/dir3",
+      "tag": "标签"
+    },
+    "main": {
+      "titlePlaceholder": "请输入您的文章标题"
+    },
+    "tipsy": {
+      "restore": "发现本地文章草稿，已自动恢复记录",
+      "success": {
+        "save": "保存成功",
+        "publish": "发布成功"
+      }
+    }
+  },
+  "subscribeFeed": {
+    "rssTitle": "Select an RSS Provider",
+    "jsonTitle": "Select an JSON Feed Provider",
+    "atomTitle": "Select an Atom Feed Provider"
+  },
+  "comment": {
+    "login": "请先登录",
+    "me": "我",
+    "success": "发布成功！请刷新页面，抱歉，我们会尽快解决这个问题！",
+    "placeholder": "请填写您的评论"
+  },
+  "relaySelector": {
+    "modal": {
+      "title": "什么是中继模式?",
+      "global": "全局",
+      "globalDesc": "您可以在列表中选择中继组/单个中继",
+      "auto": "自动",
+      "autoDesc": "我们将根据我们的算法自动选择一个继电器",
+      "fastest": "最快",
+      "fastestDesc": "我们将选择连接速度最快的中继",
+      "rule": "规则",
+      "ruleDesc": "您可以通过上传自己的脚本来定制您在Flycat上的整个体验",
+      "buttonText": "知道了"
+    }
+  },
+  "pubNoteTextarea": {
+    "icons": {
+      "image": "插入图片",
+      "emoji": "插入表情",
+      "longForm": "编写长文"
+    },
+    "btn": {
+      "post": "发布"
+    }
+  },
+  "baseLayout": {
+    "modal": {
+      "title": "写笔记",
+      "desc": "与社区分享您的想法"
+    }
+  }
+}
